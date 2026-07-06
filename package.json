@@ -1,0 +1,28 @@
+{
+  "name": "sunwwin",
+  "version": "1.0.0",
+  "description": "SunWWIN API Server",
+  "main": "sun.js",
+  "private": true,
+  "scripts": {
+    "start": "node sun.js",
+    "dev": "node sun.js"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "helmet": "^8.1.0",
+    "moment": "^2.30.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.7.0",
+    "ws": "^8.18.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
